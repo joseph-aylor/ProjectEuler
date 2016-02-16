@@ -21,7 +21,7 @@ namespace ProjectEuler
 
                 Console.WriteLine(problem.Run());
             }
-            catch(System.NullReferenceException ex)
+            catch(NullReferenceException)
             {
                 Console.WriteLine("Could Not Find Puzzle Number " + puzzleNumber);
             }
