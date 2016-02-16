@@ -45,8 +45,11 @@
   <ItemGroup>
     <Compile Include="FibonacciGenerator.cs" />
     <Compile Include="IProblem.cs" />
+    <Compile Include="PrimeChecker.cs" />
     <Compile Include="Problem1.cs" />
     <Compile Include="Problem2.cs" />
+    <Compile Include="Problem3.cs" />
+    <Compile Include="ProblemTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
